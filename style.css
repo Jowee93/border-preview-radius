@@ -1,0 +1,22 @@
+body {
+  background-color: #010038;
+}
+
+.previewer {
+  color: turquoise;
+  height: 400px;
+  width: 400px;
+}
+
+.preview-container ::after {
+  vertical-align: middle;
+}
+
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
